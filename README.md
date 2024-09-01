@@ -29,6 +29,8 @@ Due to the lack of inside information about the specific steps within the app, w
 
 
 **Analysis**
+
+
 Exploratory Data Analysis (EDA): Conducted to gain a better understanding of client behaviors and interactions with the UI.
 
 KPI Dashboard: Developed using Tableau to compare key performance indicators (KPIs) between the control and test groups.
@@ -36,6 +38,8 @@ KPI Dashboard: Developed using Tableau to compare key performance indicators (KP
 
 
 **Conclusion**
+
+
 In the A/B testing analysis, the test group, which interacted with the new UI, visited the Vanguard website more frequently than the control group. However, the test group also experienced a higher error rate (9.26%) compared to the control group (6.89%).
 
 Despite this, the test group had a higher completion rate of 0.68 compared to the control group’s 0.54. To assess whether this difference in completion rates was statistically significant, a hypothesis test was conducted.
