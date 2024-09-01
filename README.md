@@ -1,18 +1,31 @@
-Vanguard A/B Testing Project
-Project Overview
+**Vanguard A/B Testing Project**
+
+
+**Project Overview**
+
 This project was developed to evaluate the effectiveness of a new user interface (UI) introduced by Vanguard. The main goal was to determine whether the new UI leads to higher completion rates, shorter action times, and fewer errors compared to the existing interface.
 
-Datasets
-Client Profiles
-Contains client attributes: age, gender, tenure, number of logins and calls in the last 6 months, and current balance.
-Digital Footprints
-Two datasets tracking client, visitor, and visit IDs, detailing the steps taken until confirmation and the timing of these actions.
-Experiment Roster
-Lists clients divided into control and test groups for the A/B test.
-Methodology
-Confirmation Sequence: A visit ID is considered confirmed if it follows the sequence: Start → Step1 → Step2 → Step3 → Confirm. Deviations from this sequence, such as repeating or backtracking steps, indicate errors or confusion.
+**Datasets**
 
-Objective: To ensure a smooth flow from Start to Confirm without errors or repetition.
+Client Profiles:
+Contains client attributes: age, gender, tenure, number of logins and calls in the last 6 months, and current balance.
+Digital Footprints:
+Two datasets tracking client, visitor, and visit IDs, detailing the steps taken until confirmation and the timing of these actions.
+Experiment Roster:
+Lists clients divided into control and test groups for the A/B test.
+
+
+**Methodology**
+
+Confirmation Sequence
+A visit ID is considered confirmed if it follows the sequence: Start → Step1 → Step2 → Step3 → Confirm. Deviations from this sequence, such as repeating or backtracking steps, are assumed to indicate errors or confusion.
+
+Objective:
+The objective was to ensure a smooth flow from Start to Confirm without errors or repetition.
+
+Assumptions:
+Due to the lack of inside information about the specific steps within the app, we made the assumption that the aforementioned sequence represents the intended user flow. Any deviation from this sequence was interpreted as an indication of user error or confusion.
+
 
 Analysis
 Exploratory Data Analysis (EDA): Conducted to gain a better understanding of client behaviors and interactions with the UI.
