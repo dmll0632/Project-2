@@ -1,4 +1,4 @@
-**Vanguard A/B Testing Project**
+## Vanguard A/B Testing Project
 
 
 **Project Overview**
